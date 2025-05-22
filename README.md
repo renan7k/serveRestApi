@@ -1,5 +1,5 @@
 # Projeto ServeRest
-Projeto de automação de testes de api via postman, cobrindo os principais cenários de ponta a ponta, envolvendo testes de contrato, validação de responses e statusCode, integrado numa pipeline de CI/CD no github Actions.
+Projeto de automação de testes de api via postman, cobrindo os principais cenários, de ponta a ponta, envolvendo testes de contrato, validação de responses e statusCode, integrado numa pipeline de CI/CD no github Actions.
 O fluxo validado se encontra no [planoDeTeste.md](planoDeTeste.md).
 
 Os cenários seguem um princípio de independência, baseado em pré-request, test e tierdown, evitando crescer o banco de dados.
