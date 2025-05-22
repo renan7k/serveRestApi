@@ -34,8 +34,9 @@ jobs:
             -r cli,htmlextra \
             --reporter-htmlextra-export relatorios/resultado.html
 
-      - name: Upload do relatório como artefato
-        uses: actions/upload-artifact@v3@1fba9b1bff4d4e2f1c83e1d51275d0aa4c3b4c35
-        with:
-          name: relatorio-newman
-          path: relatorios/resultado.html
+     # Pendente ajustar a geração do relatório
+     # - name: Upload do relatório como artefato
+     #  uses: actions/upload-artifact@v3@1fba9b1bff4d4e2f1c83e1d51275d0aa4c3b4c35
+     #   with:
+      #    name: relatorio-newman
+       #   path: relatorios/resultado.html
